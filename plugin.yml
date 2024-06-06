@@ -1,0 +1,9 @@
+name: CustomKnockBack
+main: arrach\customkb\Loader
+version: 1.0.0
+authors:
+  - JoggingSplash23
+api: 5.0.0
+permissions:
+  customkb.op:
+    default: op

@@ -1,0 +1,5 @@
+knockback:
+  horizontal: 0.4025
+  vertical: 0.4025
+  limiter: 100
+  cooldown: 10
