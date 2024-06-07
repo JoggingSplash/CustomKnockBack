@@ -116,7 +116,7 @@ final class KnockBackEditForm extends CustomForm {
             ),
 
             function (Player $player, InputEntry $entry, string $value): void {
-                if(!is_numeric($value) ) {
+                if(!is_numeric($value) || !is_int($value) ) {
                     $player->sendMessage(TextFormat::RED . 'Use only numbers.');
                     return;
                 }
