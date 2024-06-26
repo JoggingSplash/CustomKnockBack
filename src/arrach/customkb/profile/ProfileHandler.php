@@ -20,7 +20,7 @@ final class ProfileHandler {
     }
 
     public function remove(Player $player): void {
-        if (!($this->get($player)) === null) {
+        if ($this->get($player) === null) {
             return;
         }
         unset($this->profiles[$player->getName()]);
